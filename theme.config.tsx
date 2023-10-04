@@ -4,7 +4,7 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/static/img/logo.png" width={50} />
+      <img src="/static/img/logo.png" width={40} />
       <span style={{ marginLeft: ".4em", fontWeight: 500 }}> OpenMLGuide </span>
     </>
   ),
@@ -12,7 +12,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/jiraiyahiddenleaf/OpenMLGuide",
   },
   chat: {
-    link: "https://discord.com",
+    link: "https://discord.gg/vp4E46d3jB",
   },
   docsRepositoryBase: "https://github.com/jiraiyahiddenleaf/OpenMLGuide",
   footer: {
@@ -20,11 +20,18 @@ const config: DocsThemeConfig = {
     component: null,
   },
   feedback: {
-    content: "Report an issue",
-    labels: "this",
+    useLink: () => "https://github.com/severus27/OpenMLGuide/issues/new",
+    content: (
+      <>
+        <span style={{ display: "flex", gap: "10px" }}>
+          <img src="/static/img/github.png" width={18} />
+          <span> Report an issue </span>
+        </span>
+      </>
+    ),
   },
   editLink: {
-    text: "Report an issue",
+    text: null,
   },
   gitTimestamp: null,
 };

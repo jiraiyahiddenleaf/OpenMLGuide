@@ -1,5 +1,6 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import { useConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
   logo: (
@@ -11,13 +12,22 @@ const config: DocsThemeConfig = {
   i18n: [
     { locale: "en", text: "English" },
     { locale: "zh", text: "中文" },
-    { locale: 'ru', text: 'Русский' },
-    { locale: 'jp', text: '日本語'},
-    { locale: 'tr', text: 'Türkçe' },
-    { locale: 'kr', text: '한국어' },
-    { locale: 'pt', text: 'Português' },
-    { locale: 'es', text: 'Español' },
+    { locale: "ru", text: "Русский" },
+    { locale: "jp", text: "日本語" },
+    { locale: "tr", text: "Türkçe" },
+    { locale: "kr", text: "한국어" },
+    { locale: "pt", text: "Português" },
+    { locale: "es", text: "Español" },
   ],
+  head: function UseHead() {
+    const { title } = useConfig();
+    return (
+      <>
+        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.png" />
+      </>
+    );
+  },
   project: {
     link: "https://github.com/jiraiyahiddenleaf/OpenMLGuide",
   },

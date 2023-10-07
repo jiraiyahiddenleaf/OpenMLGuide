@@ -8,6 +8,16 @@ const config: DocsThemeConfig = {
       <span style={{ marginLeft: ".4em", fontWeight: 500 }}> OpenMLGuide </span>
     </>
   ),
+  i18n: [
+    { locale: "en", text: "English" },
+    { locale: "zh", text: "中文" },
+    { locale: 'ru', text: 'Русский' },
+    { locale: 'jp', text: '日本語'},
+    { locale: 'tr', text: 'Türkçe' },
+    { locale: 'kr', text: '한국어' },
+    { locale: 'pt', text: 'Português' },
+    { locale: 'es', text: 'Español' },
+  ],
   project: {
     link: "https://github.com/jiraiyahiddenleaf/OpenMLGuide",
   },

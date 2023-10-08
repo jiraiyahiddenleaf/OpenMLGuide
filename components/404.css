@@ -1,6 +1,4 @@
-* {
-  transition: all 0.6s;
-}
+
 
 html {
   height: 100%;
@@ -11,6 +9,7 @@ body {
   color: #008AE6;
   margin: 0;
   background-color: black;
+  transition: all 0.6s;
 }
 
 #main {

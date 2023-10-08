@@ -6,7 +6,7 @@ const config: DocsThemeConfig = {
   logo: (
     <>
       <img src="/static/img/logo.png" width={40} />
-      <span style={{ marginLeft: ".4em", fontWeight: 500 }}> OpenMLGuide </span>
+      <span style={{ marginLeft: ".4em", fontWeight: 500 }}> OpenML Guide </span>
     </>
   ),
   i18n: [

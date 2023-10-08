@@ -53,6 +53,11 @@ const config: DocsThemeConfig = {
     text: null,
   },
   gitTimestamp: null,
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s | OpenML Guide'
+    }
+  }
 };
 
 export default config;

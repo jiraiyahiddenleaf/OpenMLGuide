@@ -52,6 +52,9 @@ const config: DocsThemeConfig = {
   editLink: {
     text: null,
   },
+  sidebar: {
+    toggleButton: true,
+  },
   gitTimestamp: null,
   useNextSeoProps() {
     return {

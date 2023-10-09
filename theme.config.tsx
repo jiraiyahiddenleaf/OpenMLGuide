@@ -32,18 +32,18 @@ const config: DocsThemeConfig = {
     );
   },
   project: {
-    link: "https://github.com/severus27/OpenMLGuide",
+    link: "https://github.com/OpenML-Guide/OpenMLGuide",
   },
   chat: {
     link: "https://discord.gg/vp4E46d3jB",
   },
-  docsRepositoryBase: "https://github.com/severus27/OpenMLGuide",
+  docsRepositoryBase: "https://github.com/OpenML-Guide/OpenMLGuide",
   footer: {
     text: null,
     component: null,
   },
   feedback: {
-    useLink: () => "https://github.com/severus27/OpenMLGuide/issues/new",
+    useLink: () => "https://github.com/OpenML-Guide/OpenMLGuide/issues/new",
     content: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>

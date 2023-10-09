@@ -56,6 +56,9 @@ const config: DocsThemeConfig = {
   editLink: {
     text: null,
   },
+  search: {
+    placeholder: "Search",
+  },
   sidebar: {
     toggleButton: true,
   },
@@ -67,6 +70,11 @@ const config: DocsThemeConfig = {
         titleTemplate: "%s | OpenML Guide",
       };
     }
+  },
+  primaryHue: 180,
+  primarySaturation: 60,
+  toc: {
+    backToTop: true,
   },
 };
 

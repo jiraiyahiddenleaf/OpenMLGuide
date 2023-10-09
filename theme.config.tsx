@@ -1,12 +1,16 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import { useConfig } from "nextra-theme-docs";
+import { useRouter } from "next/router";
 
 const config: DocsThemeConfig = {
   logo: (
     <>
       <img src="/static/img/logo.png" width={40} />
-      <span style={{ marginLeft: ".4em", fontWeight: 500 }}> OpenML Guide </span>
+      <span style={{ marginLeft: ".4em", fontWeight: 500 }}>
+        {" "}
+        OpenML Guide{" "}
+      </span>
     </>
   ),
   i18n: [
@@ -28,12 +32,12 @@ const config: DocsThemeConfig = {
     );
   },
   project: {
-    link: "https://github.com/jiraiyahiddenleaf/OpenMLGuide",
+    link: "https://github.com/severus27/OpenMLGuide",
   },
   chat: {
     link: "https://discord.gg/vp4E46d3jB",
   },
-  docsRepositoryBase: "https://github.com/jiraiyahiddenleaf/OpenMLGuide",
+  docsRepositoryBase: "https://github.com/severus27/OpenMLGuide",
   footer: {
     text: null,
     component: null,
@@ -57,10 +61,13 @@ const config: DocsThemeConfig = {
   },
   gitTimestamp: null,
   useNextSeoProps() {
-    return {
-      titleTemplate: '%s | OpenML Guide'
+    const { asPath } = useRouter();
+    if (asPath !== "/") {
+      return {
+        titleTemplate: "%s | OpenML Guide",
+      };
     }
-  }
+  },
 };
 
 export default config;

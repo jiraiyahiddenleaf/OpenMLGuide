@@ -27,26 +27,23 @@ const config: DocsThemeConfig = {
     const { title } = useConfig();
     return (
       <>
-        <link
-          rel="icon"
-          href="https://www.seekpng.com/png/full/4-44144_rick-and-morty-portal-png.png "
-        />
+        <link rel="icon" href="/static/img/favicon.png" />
       </>
     );
   },
   project: {
-    link: "https://github.com/OpenML-Guide/OpenMLGuide",
+    link: "https://github.com/AIPortalGun/AI-Portal-Gun",
   },
   chat: {
     link: "https://discord.gg/FqyQECEsCd",
   },
-  docsRepositoryBase: "https://github.com/OpenML-Guide/OpenMLGuide",
+  docsRepositoryBase: "https://github.com/AIPortalGun/AI-Portal-Gun",
   footer: {
     text: null,
     component: null,
   },
   feedback: {
-    useLink: () => "https://github.com/OpenML-Guide/OpenMLGuide/issues/new",
+    useLink: () => "https://github.com/AIPortalGun/AI-Portal-Gun/issues/new",
     content: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
@@ -70,7 +67,7 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter();
     if (asPath !== "/") {
       return {
-        titleTemplate: "%s | OpenML Guide",
+        titleTemplate: "%s | AI Portal Gun",
       };
     }
   },

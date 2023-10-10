@@ -6,10 +6,10 @@ import { useRouter } from "next/router";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/static/img/logo.png" width={40} />
-      <span style={{ marginLeft: ".4em", fontWeight: 500 }}>
+      <img src="/static/img/logo1.png" width={65} />
+      <span style={{ marginLeft: ".6em", fontWeight: 500 }}>
         {" "}
-        OpenML Guide{" "}
+        AI Portal Gun{" "}
       </span>
     </>
   ),
@@ -27,7 +27,10 @@ const config: DocsThemeConfig = {
     const { title } = useConfig();
     return (
       <>
-        <link rel="icon" href="/favicon.png" />
+        <link
+          rel="icon"
+          href="https://www.seekpng.com/png/full/4-44144_rick-and-morty-portal-png.png "
+        />
       </>
     );
   },
@@ -35,7 +38,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/OpenML-Guide/OpenMLGuide",
   },
   chat: {
-    link: "https://discord.gg/vp4E46d3jB",
+    link: "https://discord.gg/FqyQECEsCd",
   },
   docsRepositoryBase: "https://github.com/OpenML-Guide/OpenMLGuide",
   footer: {
@@ -71,7 +74,7 @@ const config: DocsThemeConfig = {
       };
     }
   },
-  primaryHue: 180,
+  primaryHue: 100,
   primarySaturation: 60,
   toc: {
     backToTop: true,

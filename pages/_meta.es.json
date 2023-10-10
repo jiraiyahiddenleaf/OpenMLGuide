@@ -1,8 +1,8 @@
 {
     "index": "Intro",
-    "Gentle-Introduction": "Introducción suave",
-    "Foundational-Learning": "Aprendizaje fundamental",
-    "Deep-dive": "Bucear profundo",
-    "Deep-Learning": "Aprendizaje profundo",
-    "GenerativeAI": "IA generativa"
+    "gentle-introduction": "Introducción suave",
+    "foundational-learning": "Aprendizaje fundamental",
+    "deep-dive": "Bucear profundo",
+    "deep-learning": "Aprendizaje profundo",
+    "generative-ai": "IA generativa"
   }

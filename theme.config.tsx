@@ -6,10 +6,9 @@ import { useRouter } from "next/router";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/static/img/logo1.png" width={65} />
-      <span style={{ marginLeft: ".6em", fontWeight: 500 }}>
-        {" "}
-        AI Portal Gun{" "}
+      <img src="/static/img/logo1.png" width={60} />
+      <span style={{ marginLeft: ".6em" }}>
+        <img src="/static/img/nameLogo.png" width={120} />
       </span>
     </>
   ),
@@ -37,7 +36,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.gg/FqyQECEsCd",
   },
-  docsRepositoryBase: "https://github.com/AIPortalGun/AI-Portal-Gun",
+  docsRepositoryBase: "https://github.com/AIPortalGun/AI-Portal-Gun/tree/main/",
   footer: {
     text: null,
     component: null,
@@ -54,10 +53,17 @@ const config: DocsThemeConfig = {
     ),
   },
   editLink: {
-    text: null,
+    text: (
+      <>
+        <span style={{ display: "flex", gap: "10px" }}>
+          <img src="/static/img/edit_icon.png" width={18} />
+          <span> Edit this Page </span>
+        </span>
+      </>
+    ),
   },
   search: {
-    placeholder: "Search",
+    placeholder: "Search...",
   },
   sidebar: {
     toggleButton: true,
@@ -75,6 +81,15 @@ const config: DocsThemeConfig = {
   primarySaturation: 60,
   toc: {
     backToTop: true,
+  },
+  themeSwitch: {
+    useOptions() {
+      return {
+        light: "Light",
+        dark: "Dark",
+        system: "System",
+      };
+    },
   },
 };
 

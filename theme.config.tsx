@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/static/img/logo1.png" width={60} />
+      <img src="/static/img/logo1.png" width={80} />
       <span style={{ marginLeft: ".6em" }}>
         <img src="/static/img/nameLogo.png" width={130} />
       </span>

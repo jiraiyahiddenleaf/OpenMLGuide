@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/static/img/logo1.png" width={80} />
+      <img src="/static/img/logo2.png" width={65} />
       <span style={{ marginLeft: ".6em" }}>
         <img src="/static/img/nameLogo.png" width={130} />
       </span>
@@ -74,6 +74,10 @@ const config: DocsThemeConfig = {
     if (asPath !== "/") {
       return {
         titleTemplate: "%s | AI Portal Gun",
+      };
+    } else if (asPath == "/") {
+      return {
+        titleTemplate: "AI Portal Gun",
       };
     }
   },

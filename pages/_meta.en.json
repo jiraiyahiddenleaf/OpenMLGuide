@@ -4,6 +4,8 @@
   "foundational_learning": "Foundational learning",
   "deep_learning": "Deep Learning",
   "generative_ai": "Generative AI",
-  "papers": "Papers",
+  "webui": "Web UI",
+  "cloud_deployment" : "Cloud Deployment",
+  "paper_space": "Paper Space",
   "additional_resources": "Additional Resources"
 }

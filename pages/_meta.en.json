@@ -1,9 +1,9 @@
 {
   "index": "Intro",
-  "gentle-introduction": "Gentle Introduction",
-  "foundational-learning": "Foundational learning",
-  "deep-learning": "Deep Learning",
-  "generative-ai": "Generative AI",
+  "gentle_introduction": "Gentle Introduction",
+  "foundational_learning": "Foundational learning",
+  "deep_learning": "Deep Learning",
+  "generative_ai": "Generative AI",
   "papers": "Papers",
-  "additional-resources": "Additional Resources"
+  "additional_resources": "Additional Resources"
 }

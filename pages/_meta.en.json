@@ -1,11 +1,11 @@
 {
   "index": "Intro",
-  "gentle_introduction": "Gentle Introduction",
-  "foundational_learning": "Foundational learning",
-  "deep_learning": "Deep Learning",
+  "gentle-introduction": "Gentle Introduction",
+  "foundational-learning": "Foundational learning",
+  "deep-learning": "Deep Learning",
   "generative_ai": "Generative AI",
   "webui": "Web UI",
-  "cloud_deployment" : "Cloud Deployment",
-  "paper_space": "Paper Space",
-  "additional_resources": "Additional Resources"
+  "cloud-deployment" : "Cloud Deployment",
+  "paper-space": "Paper Space",
+  "additional-resources": "Additional Resources"
 }

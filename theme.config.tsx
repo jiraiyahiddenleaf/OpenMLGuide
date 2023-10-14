@@ -6,9 +6,9 @@ import { useRouter } from "next/router";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/static/img/logo2.png" width={65} />
+      <img src="/logo/logo2.png" width={65} />
       <span style={{ marginLeft: ".6em" }}>
-        <img src="/static/img/nameLogo.png" width={110} />
+        <img src="/logo/nameLogo.png" width={120} />
       </span>
     </>
   ),
@@ -46,7 +46,7 @@ const config: DocsThemeConfig = {
     content: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
-          <img src="/static/img/github.png" width={18} />
+          <img src="/icons/github.png" width={18} />
           <span> Report an issue </span>
         </span>
       </>
@@ -56,7 +56,7 @@ const config: DocsThemeConfig = {
     text: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
-          <img src="/static/img/edit_icon.png" width={18} />
+          <img src="/icons/edit_icon.png" width={18} />
           <span> Edit this Page </span>
         </span>
       </>

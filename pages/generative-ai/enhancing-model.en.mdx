@@ -15,15 +15,16 @@ Enhancing models involves refining machine learning or AI models for improved pe
 
 - [Low-rank Adaption of LLMs: Explaining the Key Concepts Behind LoRA (part 1)](https://www.youtube.com/watch?v=dA-NhCtrrVE) & [part 2](https://www.youtube.com/watch?v=iYr1xZn26R8): This video by Chris Alexiuk, explains LoRA's importance for cost-effective Transformer fine-tuning. LoRA employs low-rank matrix decompositions to reduce training costs for LLM. It adapts low-rank factors instead of full weight matrices, offering memory and performance benefits. A second part covers implementing LoRA for fine-tuning on the SQuADv2 dataset.
 
+- [Reinforcement Learning from Human Feedback: From Zero to chatGPT](https://www.youtube.com/watch?v=2MBJOuVq380) by Hugging Face discusses RLHF and its role in enhancing ML tools like ChatGPT. The talk provides an overview of interconnected ML models, NLP, and RL fundamentals to understand RLHF in LLMs, concluding with open questions in RLHF.
 
-### Reference
-
-- [Pinecone learning center](https://www.pinecone.io/learn/): Numerous LLM applications adopt a vector search approach. Pinecone's educational hub, while labeled as vendor content, provides highly valuable guidance on constructing within this framework.
-
-- [LangChain docs](https://python.langchain.com/docs/get_started/introduction): LangChain serves as the primary orchestration layer for LLM applications, seamlessly integrating with nearly every component in the stack. Consequently, their documentation serves as a valuable resource, offering comprehensive insights into the entire stack's composition and interactions.
+- [RLHF](https://huyenchip.com/2023/05/02/rlhf.html) by Chip Huyen
 
 
 ### Articles
+
+- [Learning from human preferences](https://openai.com/research/learning-from-human-preferences)
+
+- [LLM Training: RLHF and Its Alternatives](https://magazine.sebastianraschka.com/p/llm-training-rlhf-and-its-alternatives)
 
 - [Retrieval Augmented Generation: Streamlining the creation of intelligent NLP models](https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/): Retrieval Augmented Generation (RAG), developed by Meta AI, is an end-to-end differentiable model. Combining information retrieval with a seq2seq generator, it enhances NLP models by enabling access to up-to-date information, resulting in more specific, diverse, and factual language generation compared to state-of-the-art seq2seq models [(Paper)](https://arxiv.org/abs/2005.11401).
 
@@ -32,6 +33,14 @@ Enhancing models involves refining machine learning or AI models for improved pe
 - [H3: Language Modeling with State Space Models and (Almost) No Attention](https://hazyresearch.stanford.edu/blog/2023-01-20-h3): By Hazy Research (Stanford), introduces H3, a state space model combining GPT-Neo and GPT-2 strengths, offering superior perplexity scores with fewer parameters. H3 outperforms on various tasks, demonstrating its efficiency. Scaling and future research challenges are discussed [(paper)](https://arxiv.org/abs/2212.14052).
 
 - [Can Longer Sequences Help Take the Next Leap in AI?](https://ai.stanford.edu/blog/longer-sequences-next-leap-ai/): By Stanford AI lab, explores how extending sequence length benefits deep learning. Longer sequences can enhance AI in text processing and computer vision, boosting insight quality and opening new learning paradigms, such as in-context learning and story generation. Research in this area is exciting, with vast potential yet to be fully understood [(Paper)](https://arxiv.org/abs/2205.14135).
+
+
+### Reference
+
+- [Pinecone learning center](https://www.pinecone.io/learn/): Numerous LLM applications adopt a vector search approach. Pinecone's educational hub, while labeled as vendor content, provides highly valuable guidance on constructing within this framework.
+
+- [LangChain docs](https://python.langchain.com/docs/get_started/introduction): LangChain serves as the primary orchestration layer for LLM applications, seamlessly integrating with nearly every component in the stack. Consequently, their documentation serves as a valuable resource, offering comprehensive insights into the entire stack's composition and interactions.
+
 
 ### Papers
 
@@ -42,3 +51,5 @@ Enhancing models involves refining machine learning or AI models for improved pe
 - [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) presents a technique to adapt large language models to specific tasks using low-rank matrix factorization. It enhances efficiency and performance, reducing parameters compared to other approaches. Experiments confirm its effectiveness.
 
 - [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314): introduces an efficient finetuning technique. It reduces memory usage, enabling the finetuning of a 65B parameter model on a single 48GB GPU. QLoRA combines quantization and low-rank matrix factorization to shrink memory usage while maintaining competitive performance on various tasks. The paper also discusses the challenges of finetuning large language models and suggests potential avenues for future [(explanation)](https://arxiv.org/pdf/2305.14314.pdf).
+
+- [Illustrating Reinforcement Learning from Human Feedback (RLHF)](https://huggingface.co/blog/rlhf)

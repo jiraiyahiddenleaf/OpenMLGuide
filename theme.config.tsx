@@ -86,9 +86,9 @@ const config: DocsThemeConfig = {
   toc: {
     backToTop: true,
   },
-  // nextThemes: {
-  //   defaultTheme: 'dark',
-  // },
+  nextThemes: {
+    defaultTheme: 'dark',
+  },
 };
 
 export default config;

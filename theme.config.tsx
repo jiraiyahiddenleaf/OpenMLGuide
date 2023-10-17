@@ -6,21 +6,21 @@ import { useRouter } from "next/router";
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <img src="/static/img/logo2.png" width={65} />
+      <img src="/logo/logo2.png" width={65} />
       <span style={{ marginLeft: ".6em" }}>
-        <img src="/static/img/nameLogo.png" width={110} />
+        <img src="/logo/nameLogo.png" width={120} />
       </span>
     </>
   ),
   i18n: [
     { locale: "en", text: "English" },
-    { locale: "zh", text: "中文" },
-    { locale: "ru", text: "Русский" },
-    { locale: "jp", text: "日本語" },
-    { locale: "tr", text: "Türkçe" },
-    { locale: "kr", text: "한국어" },
-    { locale: "pt", text: "Português" },
-    { locale: "es", text: "Español" },
+    // { locale: "zh", text: "中文" },
+    // { locale: "ru", text: "Русский" },
+    // { locale: "jp", text: "日本語" },
+    // { locale: "tr", text: "Türkçe" },
+    // { locale: "kr", text: "한국어" },
+    // { locale: "pt", text: "Português" },
+    // { locale: "es", text: "Español" },
   ],
   head: function UseHead() {
     const { title } = useConfig();
@@ -46,7 +46,7 @@ const config: DocsThemeConfig = {
     content: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
-          <img src="/static/img/github.png" width={18} />
+          <img src="/icons/github.png" width={18} />
           <span> Report an issue </span>
         </span>
       </>
@@ -56,7 +56,7 @@ const config: DocsThemeConfig = {
     text: (
       <>
         <span style={{ display: "flex", gap: "10px" }}>
-          <img src="/static/img/edit_icon.png" width={18} />
+          <img src="/icons/edit_icon.png" width={18} />
           <span> Edit this Page </span>
         </span>
       </>
@@ -86,14 +86,8 @@ const config: DocsThemeConfig = {
   toc: {
     backToTop: true,
   },
-  themeSwitch: {
-    useOptions() {
-      return {
-        light: "Light",
-        dark: "Dark",
-        system: "System",
-      };
-    },
+  nextThemes: {
+    defaultTheme: 'dark',
   },
 };
 

@@ -4,8 +4,10 @@
   "foundational-learning": "Foundational learning",
   "deep-learning": "Deep Learning",
   "generative-ai": "Generative AI",
-  "webui": "Web UI",
-  "cloud-deployment" : "Cloud Deployment",
-  "paper-space": "Paper Space",
+  "webui": "LLMs Web UI",
+  "mlops" : "MLOps",
+  "healthcare": "AI in Healthcare",
+  "robotics": "AI in Robotics",
+  "papers": "Papers Space",
   "additional-resources": "Additional Resources"
 }

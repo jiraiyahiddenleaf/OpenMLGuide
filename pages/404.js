@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Gif from "/public/static/img/portal.gif"
+import Gif from "public/gif/portal.gif"
 import { useEffect } from "react";
 import { Link } from "nextra-theme-docs";
 

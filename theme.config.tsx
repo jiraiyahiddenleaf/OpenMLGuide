@@ -71,13 +71,14 @@ const config: DocsThemeConfig = {
   gitTimestamp: null,
   useNextSeoProps() {
     const { asPath } = useRouter();
+    if (asPath == "/") {
+      return {
+        titleTemplate: "AI Portal Gun",
+      };
+    }
     if (asPath !== "/") {
       return {
         titleTemplate: "%s | AI Portal Gun",
-      };
-    } else if (asPath == "/") {
-      return {
-        titleTemplate: "AI Portal Gun",
       };
     }
   },
@@ -87,7 +88,7 @@ const config: DocsThemeConfig = {
     backToTop: true,
   },
   nextThemes: {
-    defaultTheme: 'dark',
+    defaultTheme: "dark",
   },
 };
 

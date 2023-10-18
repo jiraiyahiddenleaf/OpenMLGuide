@@ -10,10 +10,6 @@ body {
   height: 100%;
 }
 
-.extra-lh{
-  line-height: 1.75rem;
-}
-
 #main {
   display: table;
   width: 100%;

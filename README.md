@@ -23,5 +23,5 @@ Contributions to the guide are welcome! Here are some ways you can help:
 
 1. Install [`pnpm`](https://pnpm.io/installation) if not present in your system. 
 1. run `pnpm i` to install the dependencies.
-1. run `pnpm dev` to start the development server at `http://localhost:3000/`
+1. run `pnpm dev` to start the development server at [`http://localhost:3000/`](http://localhost:3000/)
 

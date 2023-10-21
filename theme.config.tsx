@@ -86,6 +86,7 @@ const config: DocsThemeConfig = {
   primarySaturation: 60,
   toc: {
     backToTop: true,
+    title: "Table of contents",
   },
   nextThemes: {
     defaultTheme: "dark",

@@ -3,6 +3,10 @@
   text-decoration: none !important;
 }
 
+br + ul li{
+  line-height: 28px;
+}
+
 body {
   margin: 0;
   background-color: black;

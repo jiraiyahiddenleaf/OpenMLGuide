@@ -9,8 +9,17 @@
   "mlops" : "MLOps",
   "healthcare": "AI in Healthcare",
   "robotics": "AI in Robotics",
-  "papers": "Research Papers",
-  "models": "Newface Models",
-  "additional-resources": "Additional Resources"
-
+  "additional-resources": "Additional Resources",
+  "models": {
+    "title": "Models",
+    "type": "page"
+  },
+  "papers": {
+    "title": "Research Papers",
+    "type": "page"
+  },
+  "resources": {
+    "title": "Resources",
+    "type": "page"
+  }
 }

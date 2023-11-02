@@ -82,8 +82,8 @@ const config: DocsThemeConfig = {
       };
     }
   },
-  primaryHue: 100,
-  primarySaturation: 60,
+  primaryHue: 81,
+  primarySaturation: 80,
   toc: {
     backToTop: true,
     title: "Table of contents",

@@ -7,7 +7,7 @@ const config: DocsThemeConfig = {
   logo: (
     <>
       <img src="/logo/logo2.png" width={65} />
-      <span style={{ marginLeft: ".6em" }}>
+      <span style={{ marginLeft: ".8em" }}>
         <img src="/logo/nameLogo.png" width={120} />
       </span>
     </>

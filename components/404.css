@@ -1,11 +1,14 @@
-
-*{
+* {
   text-decoration: none !important;
 }
 
-br + ul li{
+.nx-mt-6 {
   line-height: 28px;
 }
+
+/* .nx-my-2 {
+  line-height: 28px;
+} */
 
 body {
   margin: 0;
@@ -36,7 +39,7 @@ body {
 
 @keyframes type {
   from {
-    box-shadow: inset -3px 0px 0px #008AE6;
+    box-shadow: inset -3px 0px 0px #008ae6;
   }
   to {
     box-shadow: inset -3px 0px 0px transparent;

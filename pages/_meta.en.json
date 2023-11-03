@@ -3,24 +3,16 @@
   "gentle-introduction": "Gentle Introduction",
   "core-concepts": "Core Concepts",
   "deep-learning": "Deep Learning",
-  "reinforcement-learning": "Reinforcement Learning",
   "generative-ai": "Generative AI",
-  "webui": "LLMs Web UI",
+  "webui": "Web UI for LLMs",
   "mlops" : "MLOps",
-  "quantumML": "Quantum ML",
-  "healthcare": "AI in Healthcare",
+  "reinforcement-learning": "Reinforcement Learning",
+  "quantumML": "Quantum Machine Learning",
   "robotics": "AI in Robotics",
-  "additional-resources": "Additional Resources",
-  "models": {
-    "title": "Models",
-    "type": "page"
-  },
-  "papers": {
-    "title": "Research Papers",
-    "type": "page"
-  },
-  "resources": {
-    "title": "Resources",
-    "type": "page"
-  }
+  "healthcare": "AI in Healthcare",
+
+  "models": "Models",
+  "papers": "Research Papers",
+  "additional-resources": "Additional Resources"
+  
 }

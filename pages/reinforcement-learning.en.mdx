@@ -16,16 +16,15 @@ import myGif from 'public/gif/rl.gif'
 
 - [Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction): Hugging Face offers a comprehensive DRL course suitable for beginners to experts. It provides theoretical and practical knowledge, including hands-on exercises using popular libraries like [Stable Baselines3](https://stable-baselines3.readthedocs.io/en/master/) and [RL Baselines3 Zoo](https://stable-baselines3.readthedocs.io/en/master/guide/rl_zoo.html). The course offers unique environments and is divided into units, starting with foundational topics, such as training a lunar lander on the Moon. Prerequisites include basic Python, linear algebra, and calculus knowledge.
 
-
 ### Explainers
 
-- [MIT 6.S094: Deep Reinforcement Learning for Motion Planning](https://www.youtube.com/watch?v=QDzM8r3WgBw&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf) by Lex Fridman, covers the basics of DRL and its applications in motion planning.
+- [MIT 6.S094: Deep Reinforcement Learning for Motion Planning](https://www.youtube.com/watch?v=QDzM8r3WgBw&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf) by Lex Fridman, introduces types of machine learning, the neuron as a computational building block for neural nets, Q-learning, deep reinforcement learning, and the DeepTraffic simulation that utilizes deep reinforcement learning for the motion planning task.
 
 - [MIT 6.S191: Reinforcement Learning](https://www.youtube.com/watch?v=AhyznRSDjw8) by Alexander Amini, covers the basics of Reinforcement Learning, including Markov Decision Processes, Value Iteration, and Q-Learning.
 
-- [AlphaGo - How AI mastered the hardest boardgame in history](https://www.youtube.com/watch?v=MgowR4pq3e8&t=503s)
+- [AlphaGo - How AI mastered the hardest boardgame in history](https://www.youtube.com/watch?v=MgowR4pq3e8&t=503s) by Arxiv Insights, focuses on AlphaGo, an AI by Google's DeepMind, defeating the Go world champion. It highlights AI's progress and significance, mentions system limitations, and emphasizes the need for further research to unlock AI's potential.
 
-### Articles & Papers
+### Articles
 
 - [Deep Learning in a Nutshell: Reinforcement Learning](https://developer.nvidia.com/blog/deep-learning-nutshell-reinforcement-learning/) by Nvidia offering an intuitive introduction to Reinforcement Learning. It covers key concepts, value and policy functions, and uses analogies and images for clarity.
 
@@ -39,23 +38,26 @@ import myGif from 'public/gif/rl.gif'
 
 ### Papers 
 
-- [Q-learning](https://www.gatsby.ucl.ac.uk/~dayan/papers/cjch.pdf) (1992): Introduces the Q-learning algorithm, one of the fundamental algorithms in RL.
+- [Q-learning](https://www.gatsby.ucl.ac.uk/~dayan/papers/cjch.pdf) (1992): Introduced an off-policy reinforcement learning algorithm where agents learn to maximize reward through action value estimates, enabling agents to determine optimal behavior for Markov decision processes. This algorithm is one of the fundamental RL methods.
 
-- [Policy invariance under reward transformations: Theory and application to reward shaping](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/NgHaradaRussell-shaping-ICML1999.pdf) (1999): Discusses the invariance of policies under reward transformations and the concept of reward shaping.
+- [Policy invariance under reward transformations: Theory and application to reward shaping](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/NgHaradaRussell-shaping-ICML1999.pdf) (1999): explores reward shaping in RL, aiming to encourage desired behavior in agents. It introduces the policy invariance concept and outlines a method for reward function modification to achieve this goal.
 
-- [Learning to Predict by the Methods of Temporal Differences](https://www.researchgate.net/publication/225264698_Learning_to_Predict_by_the_Method_of_Temporal_Differences) (1988): Introduced the temporal difference (TD) learning algorithm, which is a model-free method for learning value functions in RL.
+- [Learning to Predict by the Methods of Temporal Differences](https://www.researchgate.net/publication/225264698_Learning_to_Predict_by_the_Method_of_Temporal_Differences) (1988):  Presents temporal difference learning, a model-free reinforcement learning algorithm for state value prediction. It updates value estimates based on the discrepancy between predicted and actual rewards.
 
-- [Actor-Critic Algorithms](https://proceedings.neurips.cc/paper_files/paper/1999/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf) (2003): Introduced the actor-critic architecture, which is a model-based method for learning policies in RL.
+- [Actor-Critic Algorithms](https://proceedings.neurips.cc/paper_files/paper/1999/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf) (2003): Introduced actor-critic algorithms, uniting policy-based and value-based methods. The actor learns state-action policies, while the critic learns value functions. Various algorithm variants were proposed, including the advantage actor-critic and natural actor-critic.
 
-### Books
-
-- [Grokking Deep Reinforcement Learning](https://www.goodreads.com/en/book/show/50336343) by Miguel Morales melds annotated Python code with lucid explanations to delve into Deep Reinforcement Learning (DRL) techniques. It offers insight into algorithm operations and guides you in creating your own DRL agents through evaluative feedback.
+- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) (2017): Presented an actor-critic algorithm for stable deep reinforcement learning using clipped surrogate objectives for the policy update and adaptive KL penalty coefficients for reliable performance. This algorithm enables efficient training of policies in complex environments.
 
 ### Guides
 
 - [Awesome Reinforcement Learning](https://github.com/aikorea/awesome-rl) compiles resources on reinforcement learning, encompassing theory, applications, codes, papers, books, tutorials, and open-source platforms. 
 
 - [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/): An OpenAI educational resource, simplifies deep reinforcement learning exploration. Tailored for aspiring researchers, it introduces RL fundamentals and various algorithm types. The material delves into specific algorithms, such as TRPO, PPO, and DQN, providing an invaluable foundation for understanding advanced AI applications in today's world.
+
+### Books
+
+- [Grokking Deep Reinforcement Learning](https://www.goodreads.com/en/book/show/50336343) by Miguel Morales melds annotated Python code with lucid explanations to delve into Deep Reinforcement Learning (DRL) techniques. It offers insight into algorithm operations and guides you in creating your own DRL agents through evaluative feedback.
+
 
 ### Reference
 
